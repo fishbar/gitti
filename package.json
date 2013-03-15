@@ -1,0 +1,28 @@
+{
+  "name": "gitti",
+  "description": "a cli tool to calculate contributions of your project",
+  "keywords": [
+    "git",
+    "gitinfo",
+    "git log",
+    "codelines",
+    "tool"
+  ],
+  "version": "0.0.1-alpha",
+  "url": "https://github.com/fishbar/gitti",
+  "author": "fish <zhengxinlin@gmail.com>",
+  "engines": {
+    "node": ">=0.6.0"
+  },
+  "bin": {
+    "gitti": "./bin/gitti.js"
+  },
+  "main": "./index.js",
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fishbar/gitti"
+  }
+}
